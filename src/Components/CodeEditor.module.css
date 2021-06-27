@@ -1,0 +1,14 @@
+.code-editor--container {
+    flex: 1;
+    border: 0.1rem solid #ccc;
+    min-height: 80vh;
+    margin-right: 0.5rem;
+}
+
+@media (max-width:1300px) {
+    .code-editor--container {
+        flex: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
