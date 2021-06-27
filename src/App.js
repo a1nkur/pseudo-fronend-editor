@@ -42,20 +42,26 @@ function App() {
         <CodeEditor changeAppState={changeAppState} />
         <OutputScreen editorCode={showOutput ? editorCode : ""} />
       </div>
-      <div className="btn-controls">
-        <button className={classes.btn} onClick={handleClick}>
-          Run Code
-        </button>
-        <button className={classes.btn} onClick={handleSaveOnClick}>
-          Download
-        </button>
-        <button
-          onClick={ToggleTheme}
-          className={classes.btn}
-          style={{ backgroundColor: btnTheme.bg, color: btnTheme.syntax }}
-        >
-          Toggle Theme
-        </button>
+      <div className={classes["btn-controls"]}>
+        <div className="btn-control">
+          <button className={classes.btn} onClick={handleClick}>
+            Run Code
+          </button>
+        </div>
+        <div className="btn-control">
+          <button className={classes.btn} onClick={handleSaveOnClick}>
+            Download
+          </button>
+        </div>
+        <div className="btn-control">
+          <button
+            onClick={ToggleTheme}
+            className={classes.btn}
+            style={{ backgroundColor: btnTheme.bg, color: btnTheme.syntax }}
+          >
+            Toggle Theme
+          </button>
+        </div>
       </div>
     </Fragment>
   );

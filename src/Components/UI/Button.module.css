@@ -13,4 +13,13 @@
   color: #ff5252;
 }
 
+.btn-controls {
+  display: flex;
+  align-items: center;
+}
 
+@media (max-width: 1300px) {
+  .btn-control {
+    padding: 0rem 0rem;
+  }
+}

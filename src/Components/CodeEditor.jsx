@@ -34,10 +34,11 @@ const CodeEditor = ({ changeAppState }) => {
         }}
         onChange={handleChange}
         mode="xml"
+        fontSize={16}
+        wrapEnabled={true}
         highlightActiveLine={false}
         showPrintMargin={false}
-        theme="github"
-        name="UNIQUE_ID_OF_DIV"
+        theme="monokai"
         editorProps={{
           $blockScrolling: true,
         }}

@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 1.5rem;
+
 }
+
 
 @media (max-width:1300px) {
     .App {
         flex-wrap: wrap;       
     }
 
-    .btn-controls {
-        display: flex;
-    }
+    
 }

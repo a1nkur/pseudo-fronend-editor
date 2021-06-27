@@ -6,7 +6,7 @@ class ThemeContextProvider extends Component {
   state = {
     isLightTheme: true,
     light: { syntax: "#555", ui: "#ddd", bg: "#eee" },
-    dark: { syntax: "#fff", ui: "#333", bg: "#171010" },
+    dark: { syntax: "#fff", ui: "#333", bg: "#1b262c" },
     btnLight: { syntax: "#555", bg: "#ddd" },
     btnDark: { syntax: "#ddd", bg: "#171010" },
   };
@@ -25,3 +25,5 @@ class ThemeContextProvider extends Component {
 }
 
 export default ThemeContextProvider;
+
+// 171010;
